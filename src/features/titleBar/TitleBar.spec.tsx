@@ -38,7 +38,7 @@ describe("TitleBar", () => {
       (callback: (state: RootState) => UserState) => callback(mockState),
     );
 
-    renderResult = render(<TitleBar />);
+    renderResult = render(<TitleBar onStickyChange={jest.fn()} />);
   });
 
   afterEach(() => {
