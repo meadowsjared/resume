@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import "../src/app/globals.css";
+import "../app/globals.css";
 
 // Used primarily to load the global styles into the pages that live in /pages/*.tsx
 
